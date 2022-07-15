@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflex clone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <style>
+        body{
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5fd505fa-f425-4a18-b3cc-00dd2638f541/d638b1fe-b44f-4cb3-b5d8-2106904c3be0/IN-en-20220704-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        }
+        .header{
+          color: red;
+          font-size: 50px;
+        
+        }
+        .nav-item{
+          margin: 10px ;
+          font-size: 18px;
+          border-radius: 5px;
+        }
+        .nav-lang{
+          border: 1px solid white;
+        }
+        .body-text{
+          color: white;
+          font-size: 80px;
+          margin: 100px 0 0 100px; 
+              
+        }
+        h3{
+          margin-top: 15px;
+          text-align: center;
+          color: white;
+        }
+        h4{
+          margin: 15px 0 0 100px; 
+          color: white;
+        }
+        #searchBar{
+          font-size: 30px;
+          border-radius:5px 0 0 5px;
+          margin-left: 50px;
+          
+          
+          
+        }
+        .btn{
+          background:red;
+          color: white;
+          font-size: 30px;
+          border-radius:0 5px 5px 0;
+
+        }
+        .section2{
+          display: flex;
+          border-top: 10px solid  gray;
+          border-bottom: 10px solid  gray;
+          background:black;
+
+        }
+       
+
+        .sign-in{
+                background-color: red;
+                width:15vh;
+                height:5vh;
+             }
+             
+             .background{
+              background-color:black;
+              color:white;
+              padding:20vh;
+              width:100%;
+             }
+             #title{
+                font-size:60px;
+             }
+             .content-space{
+              border-top: 10px solid rgb(65, 65, 65);
+              border-bottom: 10px solid rgb(65, 65, 65);
+             }
+             .mark{
+              background-color: rgb(93, 92, 92);
+              font-size:larger;
+             }
+             .mark a{
+              color:white;
+             }
+             .color{
+              background-color:black ;
+             }
+             footer a{
+              color:rgb(173, 170, 170);
+             }
+        
+        
+        
+        
+       
+        
+    </style>
+   
+</head>
+<body>
+    <!-- Starting of the navigation bar -->
+    <div class="fluid-container">
+      <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-dark">
+
+        <a class="navbar-brand " href="#">
+          <h1 class="header">NETFLEX</h1>    
+        </a>
+
+        <div class="collapse navbar-collapse mr-md-auto" id="navbarSupportedContent ">
+
+          <ul class="navbar-nav  ml-auto">
+            <li class="nav-item nav-lang dropdown ">
+              <a href="#" class="nav-link active  dropdown-toggle">
+                <strong >English</strong>
+              </a> 
+            </li>
+          </ul>
+          <ul class="navbar-nav ">
+            <li class="nav-item bg-danger">
+              <a href="#" class="nav-link active"  role="button">
+                <strong>Sign In</strong>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Ending of the navigation bar -->
+    <!-- Starting of the body -->
+    <main>
+      <!-- Starting of the Section -->
+      <section  class="fluid-container">
+        <h1   class="body-text">
+          Unlimited movies, TV shows and more.
+        </h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <h4 class="offset-3">Ready to watch? Enter your email to create or restart your membership.</h4>
+        <form class="form-inline mr-auto offset-3">
+            <input
+              placeholder="Email address"
+              type="search"
+              class="form-control"
+              name="searchBar"
+              id="searchBar"
+            />
+            <button class="btn my-2 ">Get Started <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+          </form>
+      </section>
+      <!-- Ending of the Section -->
+      <!-- Starting of the Subsection -->
+      <section class="container-fluid content-space background">
+        <div class="row ">
+          <div class="col-6">
+             <h1>Enjoy on Your TV</h1>
+             <h3>Watch on smart TVs,Playstation,Xbox<br>Chromecast,Apple TV,Blue-ray 
+              players and<br>more.</h3>
+            </div>
+              <div class="col-sm-5 offset-1">
+              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" width="290vw">
+          </div>
+        </div>
+       </section>
+       <section class="fluid-container background">
+        <div class="row">
+          <div class="col-5  col-lg-5 offset-1">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="" width="290vw">
+        </div>
+          <div class="col-6 ">
+             <h1>Download your shows to watch offline</h1>
+             <h3>Save your favorites easily and always have<br>something to watch.</h3>
+            </div>
+             
+        </div>
+       </section>
+       <section class="fluid-container background">
+        <div class="row">
+          <div class="col-6 ">
+             <h1>Watch everywhere</h1>
+             <h3>Stream unlimited movies and TV shows on<br>your Phone,tablet,laptop and TV</h3>
+            </div>
+              <div class="col-5 offset-1">
+              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" alt="" width="290vw">
+          </div>
+        </div>
+       </section>
+       <section class="fluid-container content-space background">
+        <div class="row">
+          <div class="col-5 offset-1">
+            <img src="https://occ-0-4875-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420" alt="" width="290vw">
+        </div>
+          <div class="col-6 ">
+             <h1>Create profiles for Children</h1>
+             <h3>Send children on adventure with their<br>favourite characters in a space made just for<br>them-free with your memborship</h3>
+            </div>         
+        </div>
+       </section>
+  
+       <section class="fluid-container background">
+        <div class="row">
+          <div class="offset-3 col-6 offset-3 ">
+             <h1 class="text-center py-3">Frequetly Asked Questions</h1>
+             <ul class="list-unstyled">
+              <li class="mark blockquote"><a href="#">What is Netflix?</a></li>
+              <li class="mark blockquote"><a href="#">How much Netflix cost?</a></li>
+              <li class="mark blockquote"><a href="#">Where can I watch?</a></li>
+              <li class="mark blockquote"><a href="#">How do I cancel?</a></li>
+              <li class="mark blockquote"><a href="#">What can I watch on Netfli</a>x</li>
+              <li class="mark blockquote"><a href="#">Is Netflix good for kids</a></li>
+             </ul>
+             <div class="output pt-5">
+              <h5>Ready to watch,Enter your email to create or restart your membership</h5>
+             </div>
+             <div class="d-flex  ">
+              <input   type="search" id="searchBar" placeholder="Email address" required>
+              <input class=" btn" type="button" value="Get Started">
+            </div>
+          </div>
+          </div>
+        </section>
+      <!-- Ending of the Subsection -->  
+    </main>
+    <!-- Endding of the body -->
+    <!-- Starting of the Footer  -->
+
+    <footer class="text-white text-center color py-5">
+      <h6>Questions?Call 000-800-040-1843</h6>
+          <div class="container py-3">
+            <div class="row">
+              <div class="col-3 pb-3">
+        <ul class="list-unstyled text-left">
+        <li class="small"><a href="#">FAQ</a></li>
+        <li class="small"><a href="#">Investor Relations</a></li>
+        <li class="small"><a href="#">Privacy</a></li>
+        <li class="small"><a href="#">Speed Test</a></li>
+      </ul>
+    </div>
+        <div class="col-3 pb-3">
+          <ul class="list-unstyled text-left">
+            <li class="small"><a href="#">Help Centre</a></li>
+            <li class="small"><a href="#">Jobs</a></li>
+            <li class="small"><a href="#">Cookies Preferences</a></li>
+            <li class="small"><a href="#">Legal Notices</a></li>
+          </ul>
+              </div>
+              <div class="col-3 pb-3">
+                <ul class=" list-unstyled text-left">
+                <li class="small"><a href="#">Accounts</a></li>
+                <li class="small"><a href="#">Ways to Watch</a></li>
+                <li class="small"><a href="#">Corporate Information</a></li>
+                <li class="small"><a href="#">Only on Netflix</a></li>
+              </ul>
+                  </div>
+                  <div class="col-3 pb-3">
+                    <ul class="list-unstyled text-left">
+                    <li class="small"><a href="#">Media Centres</a></li>
+                    <li class="small"><a href="#">Terms of Use</a></li>
+                    <li class="small"><a href="#">Contact Us</a></li>
+                  </ul>
+                      </div>
+                      <div>
+                        <label for="#"></label>
+                           <select>
+                              <option value="english">English</option>
+                              <option value="hindi">Telugu</option>
+                           </select>
+                      </div>
+                      <p>
+                        <span>Netflix India</span>
+                      </p>
+                    </div>
+                    </div>
+    </footer>
+    <!-- Starting of the Footer  -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+    
+    
+
+
+
+    
+  
